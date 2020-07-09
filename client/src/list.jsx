@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const list = ({allGames}) => {
         
@@ -8,7 +8,6 @@ const list = ({allGames}) => {
         )
     })
         
-
     return (
         <>
             {dropdown}
