@@ -89,7 +89,7 @@ export default class input extends React.Component {
                         </select>
                     </div>
                     {spacing}
-
+                                
                     <input value={this.state.curlink} onChange={this.handleCurLink} placeholder="(Optional) Enter Twitch Links"/>
                     
                     {Lspacing}
